@@ -42,7 +42,7 @@ div
         router-link(:to="`/order/invoice/${order.invoice._id}`") Invoice
         //- h3(v-if="sInvoice") {{order.invoice}}
         button Leave A Review
-        //- h5 Product Price: 
+        h5 Product Price: 
         //-   p {{ product.price }} €
         //- router-link(:to="`/edit-products/${product._id}`") Edit Product
         //- //- button.btn.btn-primary(href=`/edit-products/${product._id}`) Edit Product

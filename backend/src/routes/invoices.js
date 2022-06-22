@@ -8,6 +8,7 @@ const Order = require('../models/order')
 const Product = require('../models/product')
 
 router.get('/', async function (req, res) {
+  console.log("invoice")
   const invoices = await Invoice.find({})
   res.send(invoices)
 })
